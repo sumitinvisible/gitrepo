@@ -15,4 +15,11 @@ console.log('Inside of callback');
 
 // refer figure for better visualization
 
+// after registering settimeout in nodeapi ,it will remove the settimeout from callstack
 
+/* // suppose we have "n" no of callback function ,all will then transfer to callback queue i.e callback queue is a section for holding callback function
+then it will transfer to call stack for further execution 
+
+refer img 3 
+
+ */
