@@ -21,5 +21,6 @@ console.log('Inside of callback');
 then it will transfer to call stack for further execution 
 
 refer img 3 
-
+responsibility of event loop to check whether call stack is empty or not so that we can put callback function from 
+callback queue to callstack
  */
